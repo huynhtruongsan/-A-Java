@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+ "-//Hibernate/Hibernate Mapping DTD//EN"
+ "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+   <class name="com.danhlamthangcanh.model.taikhoan" table="taikhoan">
+      <id name="idtaikhoan" type="long" column="idtaikhoan">
+         <generator class="native"/>
+      </id>
+      <property name="hoten" column="hoten" type="java.lang.String"/>
+      <property name="email" column="email" type="java.lang.String"/>
+      <property name="matkhau" column="matkhau" type="java.lang.String"/>
+      <property name="dienthoai" column="dienthoai" type="java.lang.String"/>
+      <property name="ngaytao" column="ngaytao" type="java.sql.Date"/>
+      <property name="quyen" column="quyen" type="int"/>
+   </class>
+</hibernate-mapping>

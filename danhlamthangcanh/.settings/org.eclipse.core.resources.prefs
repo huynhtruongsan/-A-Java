@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding//src/main/java/com/danhlamthangcanh/controller/AdminController.java=UTF-8
+encoding//src/main/java/com/danhlamthangcanh/controller/HomeController.java=UTF-8
+encoding//src/main/java/com/danhlamthangcanh/controller/QuanlitaikhoanController.java=UTF-8
+encoding//src/main/java/com/danhlamthangcanh/controller/QuanlitintucController.java=UTF-8
+encoding//src/main/java/com/danhlamthangcanh/test/test.java=UTF-8
+encoding//src/main/java/com/danhlamthangcanh/util/HibernateUtil.java=UTF-8
+encoding//src/main/webapp/WEB-INF/views/admin/add_tintuc.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/home.jsp=UTF-8

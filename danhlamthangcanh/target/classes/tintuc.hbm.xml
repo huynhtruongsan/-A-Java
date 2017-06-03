@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+ "-//Hibernate/Hibernate Mapping DTD//EN"
+ "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+   <class name="com.danhlamthangcanh.model.tintuc" table="tintuc">
+      <id name="idtintuc" type="long" column="idtintuc">
+         <generator class="native"/>
+      </id>
+      <property name="tentintuc" column="tentintuc" type="java.lang.String"/>
+      <property name="hinhanh" column="hinhanh" type="byte[]"/>
+      <property name="motangan" column="motangan" type="java.lang.String"/>
+      <property name="motachitiet" column="motachitiet" type="java.lang.String"/>
+      <property name="ngaydang" column="ngaydang" type="java.sql.Date"/>
+      <many-to-one name="loaitin" column="idloaitin" 
+       class="com.danhlamthangcanh.model.loaitin"  not-null="true"/>
+       <many-to-one name="taikhoan" column="idtaikhoan" 
+       class="com.danhlamthangcanh.model.taikhoan"  not-null="true"/>
+   </class>
+</hibernate-mapping>
